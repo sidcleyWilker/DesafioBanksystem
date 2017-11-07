@@ -23,3 +23,9 @@ Tecnologias:
  - Content-Type de retorno, JSON.
 
 Testado com a ferramenta #SoapUI
+
+![teste](https://user-images.githubusercontent.com/7070744/32473303-a9cf8ffa-c345-11e7-8ad8-5c01939c7e8b.png)
+
+
+Caso seja passado hora ou minuto invalido o retorno sera null ou nada.
+Ex de hora/ min invalidos: hora < 1 ou hora > 12 e min < 0 ou min > 60
